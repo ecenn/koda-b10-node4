@@ -5,7 +5,7 @@
  * @returns string[]
  */
 function fungsiFilter(data, user) {
-    return data.filter((target)=>target.toLowerCase().includes(user.toLowerCase()))
+  return data.filter((target)=>target.toLowerCase().includes(user.toLowerCase()));
 }
 
-export default fungsiFilter
+export default fungsiFilter;
